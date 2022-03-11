@@ -24,8 +24,12 @@ const formatUser = (userformat) => {
         return new Promise((resolve, reject)=>{
             setTimeout(function(){
                 let nameUser = users.map(function(names){
-                names.name =  userformat+` `+names.name;
-                return names;
+                return {
+                    name: userformat+` `+names.name,
+                    age: names.age,
+                    major: names.major
+                    
+                };
                 });
                  resolve(nameUser);
             }, 3000);
