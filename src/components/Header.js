@@ -1,4 +1,3 @@
-console.log("Mulai React");
 
 function Header(){
     return(

@@ -1,4 +1,3 @@
-console.log("Mulai React");
 
 function Hello(props) {
     console.log(props);

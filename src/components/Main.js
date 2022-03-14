@@ -1,6 +1,5 @@
 import Hello from "./Hello";
 
-console.log("Mulai React");
 function Main()
 {
     return(

@@ -1,4 +1,3 @@
-console.log("Mulai React");
 function Footer()
 {
     return(
